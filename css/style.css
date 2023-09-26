@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #434851;
 }
 body{
     background-color: #F6F8F9;
@@ -15,8 +17,8 @@ header{
     line-height: 80px;
     vertical-align: middle;
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    color: black;
 }
 /* Main */
 .container{
@@ -35,6 +37,7 @@ header{
 }
 .buttonContainer{
     border-bottom: 2px solid #F6F8F9;
+    margin-bottom: 50px;
 }
 .space{
     padding-left: 50px;
@@ -43,4 +46,96 @@ header{
     background-color: #14AAF5;
     color: white;
     border-color: #14AAF5;
+}
+section{
+    padding-bottom: 50px;
+}
+h2::before{
+    content: '\25BE';
+}
+ul{
+    list-style-position: inside;
+    padding-top: 10px;
+}
+li{
+    font-weight: 500;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px 0px;
+
+}
+li::before{
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    margin-right: 10px;
+    content: '-';
+}
+li.fatto::before{
+    color: #3ACAB0;
+    content: '\2713';
+    border-color: #3ACAB0;
+}
+li.daFare::before{
+    color: #FF1010;
+    content: '\2715';
+    border-color: #FF1010;
+}
+li::after{
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    height: 20px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: 2px solid grey;
+    margin-left: 5px;
+    content: '-';
+}
+.senza::after{
+    display: none;
+}
+.editorial::after{
+    background-color: #09A9ED;
+    border-color: #09A9ED;
+    color:white;
+    content: 'Editorial';
+}
+.goals::after{
+    background-color: #AB5DE6;
+    border-color: #AB5DE6;
+    color:white;
+    content: 'Q1 Goals';
+}
+.recruiting::after{
+    background-color: #2CC6AB;
+    border-color: #2CC6AB;
+    color:white;
+    content: 'Recruiting';
+}
+.mobile::after{
+    background-color: #FF9B00;
+    border-color: #FF9B00;
+    color:white;
+    content: 'Mobile';
+}
+.website::after{
+    background-color: #EC4A9D;
+    border-color: #EC4A9D;
+    color:white;
+    content: 'Website';
+}
+.sales::after{
+    background-color: #A3D116;
+    border-color: #A3D116;
+    color:white;
+    content: 'Sales';
 }
