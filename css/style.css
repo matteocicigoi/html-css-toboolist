@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F8F9;
+}
+/* Header */
+header{
+    background-color: white;
+    padding-left: 20px;
+}
+.logo{
+    line-height: 80px;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+/*
